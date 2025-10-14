@@ -1,0 +1,45 @@
+
+.test-div {
+    background: pink;
+    padding: 20px;
+    margin: 20px;
+}
+
+div.test-div h2{
+    color: rgb(175, 49, 175);
+
+}
+
+.test-div h2:hover {
+    color: pink;
+}
+
+.test-div:hover {
+    background: rgb(175, 49, 175);
+
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+}
+
+.test-div {
+    color:rgb(253, 63, 186);
+}
+ 
+.test-div .special {
+    background: rgb(255, 213, 224);
+}
+
+#house {
+display: flex;
+flex-wrap: row;
+}
+
+#house DIV {
+    width: 400px;}
+
+#split {
+    display: flex;
+    flex-direction: column;
+}

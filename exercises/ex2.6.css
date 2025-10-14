@@ -1,0 +1,36 @@
+p1 { color: #000000;
+    background: rgb(103, 138, 255);
+    width: 100px;
+    height: 20px;
+    padding: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    }
+    p2 { color: #000000;
+    background: rgb(91, 199, 122);
+    width: 100px;
+    height: 20px;
+    padding: 50px;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    }
+    p3 { color: #000000;
+    background: rgb(244, 248, 113);
+    width: 100px;
+    height: 20px;
+    padding: 50px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    }
+    p4 { color: #000000;
+    background: rgb(244, 125, 104);
+    width: 100px;
+    height: 20px;
+    padding: 50px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    }

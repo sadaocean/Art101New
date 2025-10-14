@@ -1,0 +1,7 @@
+BODY { background: #bdd9ec; padding: 50px;}
+#introduction h2 {
+    color: #ce4b20; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;}
+#introduction p {font-size:120%;}
+#mypic {width: 200px;}

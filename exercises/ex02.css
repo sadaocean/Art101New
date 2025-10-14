@@ -1,0 +1,14 @@
+.background {color: rgb(255, 220, 225)}
+p { color: #2692f1;
+    background: pink;
+    width: 200px;
+    height: 20px;
+    padding: 50px;
+    }
+ol {color: rgb(250, 136, 205); }
+    .high1 {background: orange}
+
+#pony {width: 500px;
+position: absolute;
+top: 20px;
+left: 320px; }
