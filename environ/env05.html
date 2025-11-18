@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otter Say Hi!</title>
+    <link rel="stylesheet" href="env05.css">
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="background-container">
+        <!-- Dynamic content will be added here by JavaScript -->
+        <div id="title-output"></div>
+        <div id="subtitle-output"></div>
+
+        <!-- INTERACTIVE ELEMENT: Hover zone that triggers multiple animations -->
+        <div id="interaction-zone">
+            <p>🌊 Hover over me! 🌊</p>
+        </div>
+
+        <img id="otter" src="otter.png" />
+        <img id="fish1" src="fish1.png" />
+        <img id="fish2" src="fish2.png" />
+        <img id="fish3" src="fish3.png" />
+        <img id="speech" src="speechbub.png" />
+
+        <div class="voice">
+            <span id="voice-output"></span>
+        </div>
+
+        <!-- Additional output divs for your environment data -->
+        <div id="elements-output"></div>
+        <div id="character-output"></div>
+
+        <!-- Age guessing game -->
+        <div id="age-game">
+            <h3>Can you guess my age?</h3>
+            <input type="number" id="age-guess" placeholder="Enter age..." min="1" max="200">
+            <button id="guess-button">Guess!</button>
+            <p id="game-feedback"></p>
+        </div>
+    </div>
+
+    <script src="env05.js"></script>
+</body>
+</html>
