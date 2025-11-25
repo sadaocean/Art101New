@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otter Say Hi!</title>
+    <link rel="stylesheet" href="env07.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="env07.js" defer></script>
+</head>
+<body>
+    <div class="background-container">
+        <div id="title-output"></div>
+        <div id="subtitle-output"></div>
+
+        <div id="interaction-zone">
+            <p>🌊 Hover over me! 🌊</p>
+        </div>
+
+        <img id="otter" src="otter.png" alt="Sea Otter" />
+        <img id="fish1" src="fish1.png" alt="Fish 1" />
+        <img id="fish2" src="fish2.png" alt="Fish 2" />
+        <img id="fish3" src="fish3.png" alt="Fish 3" />
+        
+        <div id="speech">
+            <div id="voice-output"></div>
+        </div>
+
+        <div id="character-output"></div>
+        <div id="elements-output"></div>
+
+        <div id="age-game">
+            <h3>🎮 Can you guess my age?</h3>
+            <input type="number" id="age-guess" placeholder="Enter age..." min="1" max="20">
+            <button id="guess-button">Guess!</button>
+            <p id="game-feedback"></p>
+        </div>
+    </div>
+</body>
+</html>

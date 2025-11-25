@@ -13,10 +13,4 @@ $("#creature").dblclick(function() {
 $(document).keydown(function(event) {
   $("#status").text("You pressed: " + event.key);
 });
-$(document).mousemove(function(event) {
-  $("#creature").css({
-    left: event.pageX - 60,
-    top: event.pageY - 60,
-    position: "absolute"
-  });
-});
+
